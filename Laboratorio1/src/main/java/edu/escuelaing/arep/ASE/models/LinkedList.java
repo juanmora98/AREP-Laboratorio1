@@ -39,8 +39,35 @@ public class LinkedList<T> implements List<T> {
         return true;
     }
 
+    /*
+        Metodo encargado de agregar un nuevo elemento en una posicion especifica.
+        Se crea un nuevo nodo con el dato.
+        Si la lista tiene un tamaño menor a la posicion que el dato intenta agregarse no se ara ningun proceso y se mostrara un mensaje donde se dira que fallo el proceso.
+        @param index posicion a agregar el dato
+        @param element dato que se quiere agregar a la lista
+    */
     public void add(int index,  T element) {
-        // TODO Auto-generated method stub
+        if(index > size){
+            System.out.println("La lista no tiene el tamaño necesario para agregar en esa posicion.");
+            return;
+        }
+        Node<T> nuevoNodo = new Node<T>(element, null);
+        if(index == 1){
+            nuevoNodo.setSiguienteNodo(head.getPrimerAtributo());
+            head.AddPrimerDato(nuevoNodo);
+        }
+        else{
+            int count = 2;
+            Node<T> anteriorNodo = head.getPrimerAtributo();
+            Node<T> actualNodo = anteriorNodo.getSiguienteNodo();
+            while(count != index){
+                anteriorNodo = actualNodo;
+                actualNodo = actualNodo.getSiguienteNodo();
+                count ++;
+            }
+            anteriorNodo.setSiguienteNodo(nuevoNodo);
+            nuevoNodo.setSiguienteNodo(actualNodo);
+        }
 
     }
 

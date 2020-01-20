@@ -24,6 +24,7 @@ public class Node<T>
     public Node<T> getSiguienteNodo(){
         return siguienteNodo;
     }
+
     
 
 }
