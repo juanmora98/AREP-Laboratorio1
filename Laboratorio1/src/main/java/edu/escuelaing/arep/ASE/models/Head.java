@@ -29,4 +29,23 @@ public class Head<T>
         return ultimoDato;
     }
 
+    public void EliminarConexionCabeza(){
+        this.primerDato = null;
+    }
+
+    public void EliminarConexionCola(){
+        this.ultimoDato = null;
+    }
+
+    public void EliminarPosicionInicial(){
+        if(primerDato != null){
+            if(primerDato.getSiguienteNodo() == null){
+                EliminarConexionCabeza();
+            }
+            else{
+                this.primerDato = this.primerDato.getSiguienteNodo();
+            }
+        }
+    }
+
 }

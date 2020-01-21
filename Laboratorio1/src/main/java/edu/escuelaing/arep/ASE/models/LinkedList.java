@@ -76,13 +76,15 @@ public class LinkedList<T> implements List<T> {
         return false;
     }
 
-    public boolean addAll(int index, final Collection<? extends T> c) {
+    public boolean addAll(int index, Collection<? extends T> c) {
         // TODO Auto-generated method stub
         return false;
     }
 
     public void clear() {
         // TODO Auto-generated method stub
+
+        
 
     }
 
