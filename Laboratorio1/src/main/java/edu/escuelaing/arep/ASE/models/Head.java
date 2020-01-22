@@ -37,7 +37,7 @@ public class Head<T>
         this.ultimoDato = null;
     }
 
-    public void EliminarPosicionInicial(){
+    /*public void EliminarPosicionInicial(){
         if(primerDato != null){
             if(primerDato.getSiguienteNodo() == null){
                 EliminarConexionCabeza();
@@ -46,6 +46,13 @@ public class Head<T>
                 this.primerDato = this.primerDato.getSiguienteNodo();
             }
         }
+    }*/
+
+    public void ClearHead(){
+        EliminarConexionCabeza();
+        EliminarConexionCola();
+        System.gc();
+        System.runFinalization();
     }
 
 }
