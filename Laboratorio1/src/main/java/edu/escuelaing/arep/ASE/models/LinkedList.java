@@ -46,9 +46,10 @@ public class LinkedList<T> implements List<T> {
 // endregion
 
 // region metodo add recibiendo la posicion y el elemento que se quiere agregar
-    /*
-     * Metodo encargado de agregar un nuevo elemento en una posicion especifica. Se
-     * crea un nuevo nodo con el dato. Si la lista tiene un tamaño menor a la
+    /**
+     * Metodo encargado de agregar un nuevo elemento en una posicion especifica. 
+     *
+     * Se crea un nuevo nodo con el dato. Si la lista tiene un tamaño menor a la
      * posicion que el dato intenta agregarse no se ara ningun proceso y se mostrara
      * un mensaje donde se dira que fallo el proceso.
      * 
@@ -89,7 +90,7 @@ public class LinkedList<T> implements List<T> {
 // region metodo addAll el cual recibe una coleccion de datos
 
     /**
-     * Metodo encargado de agregar toda una coleccion de datos en la linkedlist
+     * Metodo encargado de agregar toda una coleccion de datos en la linkedlist.
      * 
      * @param c coleccion de datos a agregar
      * 
@@ -175,9 +176,9 @@ public class LinkedList<T> implements List<T> {
     }
 
 //region metodo encargado de decir si la lista esta vacia o no
-    /*
-        Metodo encargado de decir si la lista se encuentra vacia o no
-        @Return boolean dependiendo si la lista esta vacia (true) o no (false)
+    /**
+    *Metodo encargado de decir si la lista se encuentra vacia o no
+    *@return boolean dependiendo si la lista esta vacia (true) o no (false)
     */
     public boolean isEmpty() {
         boolean isEmpty;
@@ -238,9 +239,9 @@ public class LinkedList<T> implements List<T> {
     }
 
 //region metodo Size
-    /*
-        Metodo encargado de decir el tamaño con el que cuenta la lista
-        @Return int tamaño de la lista.
+    /**
+    *Metodo encargado de decir el tamaño con el que cuenta la lista
+    *@return int tamaño de la lista.
     */
     public int size() {
         return size;
