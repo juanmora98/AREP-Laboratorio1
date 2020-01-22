@@ -20,7 +20,9 @@ public class Head<T>
     }
 
     public void AddUltimoDato(Node<T> nodo){
-        ultimoDato.setSiguienteNodo(nodo);
+        if(ultimoDato != null){
+            ultimoDato.setSiguienteNodo(nodo);
+        }
         this.ultimoDato = nodo;
     }
 
