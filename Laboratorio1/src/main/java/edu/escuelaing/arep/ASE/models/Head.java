@@ -7,10 +7,13 @@ public class Head<T>
     private Node<T> primerDato;
     private Node<T> ultimoDato;
 
+
+//region metodo constructor  
     public Head(Node<T> primerDt, Node<T> ultimoDt){
         this.primerDato = primerDt;
         this.ultimoDato = ultimoDt;
     }
+//endregion
 
     public void AddPrimerDato(Node<T> nodo){
         this.primerDato = nodo;
