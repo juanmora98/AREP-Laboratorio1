@@ -23,9 +23,11 @@ A partir de estos datos se realizaron las siguientes pruebas.
 
  ![Tabla](Laboratorio1/images/tabla2.png)
 
+![Tabla](Laboratorio1/images/tabla3.png)
 
+![Tabla](Laboratorio1/images/tabla4.png)
 
-
+![Tabla](Laboratorio1/images/tabla5.png)
 
 
 
