@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.ListIterator;
 
 // Clase de una linkedlist
-public class LinkedList<T> implements List<T> {
+public class LinkedList<T> implements List<T>,Iterable<T> {
 
     // Atributos
     private Head<T> head;
@@ -194,8 +194,29 @@ public class LinkedList<T> implements List<T> {
 
 
     public Iterator<T> iterator() {
-        // TODO Auto-generated method stub
-        return null;
+        Iterator<T> res = new Iterator<T>() {
+            private Node<T> now = head.getPrimerAtributo();
+
+            public boolean hasNext() {
+                boolean existe;
+                if (now != null){
+                    existe = true;
+                }
+                else{
+                    existe = false;
+                }
+            return existe;
+            }
+
+
+            public T next() {
+                T dato = now.getDato();
+                now = now.getSiguienteNodo();
+                return dato;
+            }
+       
+        };
+        return res;
     }
 
     public int lastIndexOf(Object o) {
@@ -263,4 +284,5 @@ public class LinkedList<T> implements List<T> {
         return null;
     }
 
+    
 }

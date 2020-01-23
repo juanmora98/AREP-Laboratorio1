@@ -1,6 +1,6 @@
 package edu.escuelaing.arep.ASE.Modules;
 
-import static org.junit.Assert.assertEquals;
+//import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -37,4 +37,5 @@ public class LinkedListTest{
         assertTrue(lista.get(2) == valorConfirmar);
     }
 
+    
 }
