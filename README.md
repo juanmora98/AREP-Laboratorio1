@@ -15,7 +15,7 @@ Laboratorio realizado con la intención de que los estudiantes utilicen los los 
   
   
 # Pruebas
- Para la realización de las pruebas, se utilizaron los datos datos en el documento dado por el profesor:
+ Para la realización de las pruebas, se utilizaron los datos en el documento dado por el profesor:
  
  ![Tabla](Laboratorio1/images/tabla.png)
  
