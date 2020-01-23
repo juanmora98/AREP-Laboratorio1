@@ -11,7 +11,7 @@ Laboratorio realizado con la intención de que los estudiantes utilicen los los 
      Para poder utilizar adecuadamente el programa es necesario tener en la computadora que lo utilizara, tener instalado:
    * [maven]
 
-   *[java]
+   * [java]
      
 
 
