@@ -18,6 +18,8 @@ Laboratorio realizado con la intención de que los estudiantes utilicen los los 
  Para la realización de las pruebas, se utilizaron los datos datos en el documento dado por el profesor:
  
  ![Tabla](Laboratorio1/images/tabla.png)
+ 
+ ![Tabla](Laboratorio1/images/tabla6.png)
 
 A partir de estos datos se realizaron las siguientes pruebas.
 
@@ -29,9 +31,11 @@ A partir de estos datos se realizaron las siguientes pruebas.
 
 ![Tabla](Laboratorio1/images/tabla5.png)
 
+Las cuales dan como resultado los siguientes valores.
 
+![Tabla](Laboratorio1/images/resultados.png)
 
-
+Los cuales podemos observar a partir de la tabla dada que eran los valores esperados por estos procesos.
 
 
 
