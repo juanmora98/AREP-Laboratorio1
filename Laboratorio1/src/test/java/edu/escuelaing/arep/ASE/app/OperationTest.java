@@ -39,6 +39,7 @@ public class OperationTest{
         lista.add(valorPrueba9);
         lista.add(valorPrueba10);
         double total = Operation.Sumatoria(lista);
+        System.out.println("Prueba sumatoria "+total);
         assertTrue(valorTotal == total);
     }
 
@@ -70,6 +71,7 @@ public class OperationTest{
         lista.add(valorPrueba9);
         lista.add(valorPrueba10);
         double total = Operation.Promedio(lista);
+        System.out.println("Prueba promedio "+total);
         assertTrue(valorTotal == total);
     }
 
@@ -101,6 +103,7 @@ public class OperationTest{
         lista.add(valorPrueba9);
         lista.add(valorPrueba10);
         double total = Operation.SumatoriaEspecial(lista,Operation.Promedio(lista));
+        System.out.println("SumatoriaE prueba " + total);
         double valorDelta = 1;
         double valorPorDecimales = Math.abs(total - valorTotal);
         assertTrue(valorDelta == valorPorDecimales);
@@ -135,6 +138,7 @@ public class OperationTest{
         lista.add(valorPrueba10);
         double total = Operation.DesviacionEstandar(lista);
         total = Math.round(total * 1000000d)/1000000d;
+        System.out.println("Variacion estandar prueba "+total);
         assertTrue(valorTotal == total);
     }
 
