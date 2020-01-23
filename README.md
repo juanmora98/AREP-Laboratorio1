@@ -19,6 +19,9 @@ Laboratorio realizado con la intención de que los estudiantes utilicen los los 
  
  ![Tabla](Laboratorio1/images/tabla.png)
 
+A partir de estos datos se realizaron las siguientes pruebas.
+
+ ![Tabla](Laboratorio1/images/tabla2.png)
 
 
 
