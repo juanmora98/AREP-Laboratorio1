@@ -17,7 +17,7 @@ Laboratorio realizado con la intención de que los estudiantes utilicen los los 
 # Pruebas
  Para la realización de las pruebas, se utilizaron los datos datos en el documento dado por el profesor:
  
- ![alt text](https://github.com/juanmora98/AREP-Laboratorio1/tree/master/Laboratorio1/img/tabla.png)
+ ![](https://github.com/juanmora98/AREP-Laboratorio1/tree/master/Laboratorio1/img/tabla.png)
 
 
 
