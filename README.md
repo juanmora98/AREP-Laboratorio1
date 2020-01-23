@@ -40,6 +40,9 @@ Las cuales dan como resultado los siguientes valores.
 
 Los cuales podemos observar a partir de la tabla dada que eran los valores esperados por estos procesos.
 
+# Diseño
+Se agrego un pdf con el diseño del trabajo.
+
 
 
 
