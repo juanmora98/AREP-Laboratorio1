@@ -8,7 +8,9 @@ Laboratorio realizado con la intención de que los estudiantes utilicen los los 
 
 # Como Iniciar
  # - Prerequisitos
-     Para poder utilizar adecuadamente el programa es necesario tener en la computadora que lo utilizara, tener instalado [maven] y [java].
+     Para poder utilizar adecuadamente el programa es necesario tener en la computadora que lo utilizara, tener instalado:
+     *[maven]
+     *[java]
      
 
 
