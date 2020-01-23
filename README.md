@@ -19,7 +19,10 @@ Laboratorio realizado con la intención de que los estudiantes utilicen los los 
  
  ![Tabla](Laboratorio1/images/tabla.png)
  
- ![Tabla](Laboratorio1/images/tabla6.png)
+ ![Tabla](Laboratorio1/images/promedio.png)
+
+![Tabla](Laboratorio1/images/variacion.png)
+
 
 A partir de estos datos se realizaron las siguientes pruebas.
 
