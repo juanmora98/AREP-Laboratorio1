@@ -3,6 +3,9 @@ package edu.escuelaing.arep.ASE.Modules;
 //import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+import java.awt.List;
+import java.util.ArrayList;
+
 import org.junit.Test;
 
 import edu.escuelaing.arep.ASE.models.LinkedList;
@@ -37,5 +40,19 @@ public class LinkedListTest{
         assertTrue(lista.get(2) == valorConfirmar);
     }
 
-    
+    /**
+     * Prueba realizada para comprobar si se puede agregar todos los datos de una coleccion en la linkedlist
+     */
+    @Test
+    public void TestAddAll1(){
+        ArrayList<Integer> lista1 = new ArrayList<Integer>();
+        lista1.add(32);
+        lista1.add(33);
+        lista1.add(34);
+        LinkedList<Integer> lista = new LinkedList<Integer>();
+        lista.addAll(lista1);
+        assertTrue(lista1.get(1) == lista.get(1));
+    }
+
+
 }
