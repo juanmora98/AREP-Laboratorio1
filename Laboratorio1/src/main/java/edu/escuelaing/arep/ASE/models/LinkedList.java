@@ -192,11 +192,16 @@ public class LinkedList<T> implements List<T>,Iterable<T> {
     }
 //endregion
 
-
+/**
+ * Metodo encargado de entregar un Iterator que permite recorrer la linkedlist de una manera lineal
+ */
     public Iterator<T> iterator() {
         Iterator<T> res = new Iterator<T>() {
             private Node<T> now = head.getPrimerAtributo();
 
+            /**
+             * Metodo encargado de mostrar si la posicion actual que se esta recorriendo en la lista existe o no
+             */
             public boolean hasNext() {
                 boolean existe;
                 if (now != null){
@@ -208,7 +213,9 @@ public class LinkedList<T> implements List<T>,Iterable<T> {
             return existe;
             }
 
-
+            /**
+             * Metodo encargado de obtener el dato del Nodo actual y cambiar al siguiente nodo
+             */
             public T next() {
                 T dato = now.getDato();
                 now = now.getSiguienteNodo();

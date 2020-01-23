@@ -42,6 +42,9 @@ public class OperationTest{
         assertTrue(valorTotal == total);
     }
 
+    /**
+     * Prueba realizada para obtener el promedio de una cadena de valores
+     */
     @Test
     public void PromedioTest(){
         double valorTotal = 638.9;
@@ -70,6 +73,9 @@ public class OperationTest{
         assertTrue(valorTotal == total);
     }
 
+    /**
+     * Prueba realizada para verificar el proceso de la Sumatoria especial
+     */
     @Test
     public void SumatoriaETest(){
         double valorTotal = 3522761.90;
@@ -100,6 +106,9 @@ public class OperationTest{
         assertTrue(valorDelta == valorPorDecimales);
     }
 
+    /**
+     * Prueba realizada para verificar el proceso de la variacion estandar.
+     */
     @Test
     public void SumatoriaVariacionEstandarTest(){
         double valorTotal = 625.633981;
