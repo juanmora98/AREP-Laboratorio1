@@ -54,7 +54,9 @@ El pdf añadido de nombre [Laboratorio1](https://github.com/juanmora98/AREP-Labo
 
 * **Juan Felipe Mora Quintero** - *Desarrollador* - [juanmora98](https://github.com/juanmora98)
 
+## Licencias
 
+Este archivo se cuenta con licencias del MIT,observar el [ARCHIVO](https://github.com/juanmora98/AREP-Laboratorio1/blob/master/LICENSE) para mas detalles.
 
 
 
