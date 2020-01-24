@@ -43,6 +43,9 @@ Los cuales podemos observar a partir de la tabla dada que eran los valores esper
 # Diseño
 Se agrego un pdf con el diseño del trabajo.
 
+# JavaDoc
+[Documentacion](https://github.com/juanmora98/AREP-Laboratorio1/tree/master/Laboratorio1/target/apidocs) al darle click, se abrira la carpeta donde se encuentra el archivo index,o ir a la direccion /Laboratorio1/target/apidocs.
+
 ## Construido
 * [maven] - manejador de dependencias
 
