@@ -43,6 +43,13 @@ Los cuales podemos observar a partir de la tabla dada que eran los valores esper
 # Diseño
 Se agrego un pdf con el diseño del trabajo.
 
+## Construido
+* [maven] - manejador de dependencias
+
+
+## Autor
+
+* **Juan Felipe Mora Quintero** - *Desarrollador* - [juanmora98](https://github.com/juanmora98)
 
 
 
