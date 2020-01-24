@@ -41,7 +41,7 @@ Las cuales dan como resultado los siguientes valores.
 Los cuales podemos observar a partir de la tabla dada que eran los valores esperados por estos procesos.
 
 # Diseño
-Se agrego un pdf con el diseño del trabajo.
+El pdf añadido de nombre [Laboratorio1](https://github.com/juanmora98/AREP-Laboratorio1/blob/master/Laboratorio1/Laboratorio1.pdf) se encuentra el diseño del proyecto.
 
 # JavaDoc
 [Documentacion](https://github.com/juanmora98/AREP-Laboratorio1/tree/master/Laboratorio1/target/apidocs) al darle click, se abrira la carpeta donde se encuentra el archivo index,o ir a la direccion /Laboratorio1/target/apidocs.
